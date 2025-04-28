@@ -167,7 +167,7 @@ class CharacterDetector(FileSystemEventHandler):
         if (platform.system() == "Windows"):
             import win32com.client
             oShell = win32com.client.Dispatch("Wscript.Shell")
-            self.path = oShell.SpecialFolders("MyDocuments") + "\\EVE\\logs\\Gamelogs\\"
+            self.path = oShell.SpecialFolders("MyDocuments") + "\\Frontier\\logs\\Gamelogs\\"
         else:
             self.path = os.environ['HOME'] + "/Documents/EVE/logs/Gamelogs/"
         
