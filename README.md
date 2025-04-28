@@ -1,4 +1,5 @@
-NONE of this is my work, I just made changes for it to work with  Frontier and run on Windows with latest Python..
+NOTE on fork:
+NONE of this is my work, I just made changes for it to work with Frontier and run on Windows with latest Python..
 
 
 # PyEveLiveDPS <img src="/app.ico" width="40" height="40">
