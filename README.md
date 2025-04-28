@@ -1,3 +1,6 @@
+NONE of this is my work, I just made changes for it to work with  Frontier and run on Windows with latest Python..
+
+
 # PyEveLiveDPS <img src="/app.ico" width="40" height="40">
 PyEveLiveDPS (PELD) is a live DPS calculator and grapher for EVE Online
 
