@@ -24,7 +24,7 @@ for:
     install:
       - "SET PATH=%PYTHON%;%PYTHON%\\Scripts;%PATH%"
       - "pip install pypiwin32"
-      - "pip install pefile"
+      - "pip install pefile==2024.8.26"
       - "pip install pyinstaller"
       - "pip install -r requirements.txt"
       - "choco install -y InnoSetup"
