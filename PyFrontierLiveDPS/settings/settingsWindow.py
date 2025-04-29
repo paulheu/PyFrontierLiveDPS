@@ -55,7 +55,7 @@ class SideBar(tk.Frame):
             button.image = image
         except Exception:
             try:
-                path = os.path.join('PyEveLiveDPS', 'images', chosenImage)
+                path = os.path.join('PyFrontierLiveDPS', 'images', chosenImage)
                 image = tk.PhotoImage(file=path)
                 button.configure(image=image)
                 button.image = image
@@ -72,7 +72,7 @@ class SettingsWindow(tk.Toplevel):
         self.graph = mainWindow.getGraph()
         
         self.wm_attributes("-topmost", True)
-        self.wm_title("PyEveLiveDPS Settings")
+        self.wm_title("PyFrontierLiveDPS Settings")
         try:
             self.iconbitmap(sys._MEIPASS + os.pathsep + 'app.ico')
         except Exception:

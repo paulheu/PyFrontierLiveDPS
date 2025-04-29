@@ -2,8 +2,8 @@ NOTE on fork:
 NONE of this is my work, I just made changes for it to work with Frontier and run on Windows with latest Python..
 
 
-# PyEveLiveDPS <img src="/app.ico" width="40" height="40">
-PyEveLiveDPS (PELD) is a live DPS calculator and grapher for EVE Online
+# PyFrontierLiveDPS <img src="/app.ico" width="40" height="40">
+PyFrontierLiveDPS (PELD) is a live DPS calculator and grapher for EVE Online
 
 PELD uses EVE's combat logs making it fully compliant with EVE's EULA
 
@@ -25,7 +25,7 @@ The source code for the server components of the fleet features is available her
 
 ## Download and Running
 Download the latest version from here:  
-**https://github.com/ArtificialQualia/PyEveLiveDPS/releases**
+**https://github.com/ArtificialQualia/PyFrontierLiveDPS/releases**
 
 You have two download options:  
 PELD-standalone requires no installation, but takes a few seconds to start up.  
@@ -59,7 +59,7 @@ PELD will ask you for your overview settings the first time you run it.  You can
 
 ## Problems?  Feedback?
 
-If you encounter any bugs or you think there are missing features please let me know [on the issues page](https://github.com/ArtificialQualia/PyEveLiveDPS/issues).
+If you encounter any bugs or you think there are missing features please let me know [on the issues page](https://github.com/ArtificialQualia/PyFrontierLiveDPS/issues).
 
 If you wish to contribute to the project codebase, I accept pull requests.
 
@@ -69,7 +69,7 @@ If you love the program enough that you feel compelled to donate, ISK donations 
 To run PELD directly from the source code, run the following commands with **Python 3.3-3.6**:
 ```
 pip install -r requirements.txt
-python ./PyEveLiveDPS/peld.py
+python ./PyFrontierLiveDPS/peld.py
 ```
 Ensure your python includes tkinter (often downloaded as a separate package on package managers).
 

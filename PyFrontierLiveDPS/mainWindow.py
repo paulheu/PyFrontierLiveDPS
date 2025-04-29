@@ -38,7 +38,7 @@ class MainWindow(tk.Tk):
         self.minsize(175,50)
         
         # Set title and icon for alt+tab and taskbar
-        self.wm_title("PyEveLiveDPS")
+        self.wm_title("PyFrontierLiveDPS")
         try:
             self.iconbitmap(sys._MEIPASS + os.pathsep + 'app.ico')
         except Exception:

@@ -15,7 +15,7 @@ class SimulationWindow(tk.Toplevel):
         self.values = {}
         
         self.wm_attributes("-topmost", True)
-        self.wm_title("PyEveLiveDPS Simulation Settings")
+        self.wm_title("PyFrontierLiveDPS Simulation Settings")
         try:
             self.iconbitmap(sys._MEIPASS + os.pathsep + 'app.ico')
         except Exception:

@@ -1,5 +1,5 @@
 """
-Main file for PyEveLiveDPS
+Main file for PyFrontierLiveDPS
 
 Initializes settings, the logger, then runs the main tkinter components
 also spawns a separate thread to perform the update checker

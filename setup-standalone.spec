@@ -3,10 +3,10 @@
 block_cipher = None
 
 
-a = Analysis(['PyEveLiveDPS\\peld.py'],
-             pathex=['.\\PyEveLiveDPS'],
+a = Analysis(['PyFrontierLiveDPS\\peld.py'],
+             pathex=['.\\PyFrontierLiveDPS'],
              binaries=[],
-             datas=[('app.ico', '.'), ('.\\PyEveLiveDPS\\images\\*.png', 'images'), ('.\\PyEveLiveDPS\\images\\*.gif', 'images')],
+             datas=[('app.ico', '.'), ('.\\PyFrontierLiveDPS\\images\\*.png', 'images'), ('.\\PyFrontierLiveDPS\\images\\*.gif', 'images')],
              hiddenimports=[],
              hookspath=[],
              runtime_hooks=[],

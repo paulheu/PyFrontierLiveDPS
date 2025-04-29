@@ -30,7 +30,7 @@ class FleetWindow(tk.Toplevel):
         self.configure(pady=10)
         
         self.wm_attributes("-topmost", True)
-        self.wm_title("PyEveLiveDPS Fleet Mode")
+        self.wm_title("PyFrontierLiveDPS Fleet Mode")
         try:
             self.iconbitmap(sys._MEIPASS + os.pathsep + 'app.ico')
         except Exception:
@@ -182,7 +182,7 @@ class SocketNotificationWindow(tk.Toplevel):
         self.configure(pady=10, padx=20)
         
         self.wm_attributes("-topmost", True)
-        self.wm_title("PyEveLiveDPS Awaiting Login")
+        self.wm_title("PyFrontierLiveDPS Awaiting Login")
         try:
             self.iconbitmap(sys._MEIPASS + os.pathsep + 'app.ico')
         except Exception:

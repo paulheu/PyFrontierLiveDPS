@@ -16,7 +16,7 @@ Automatic builds need to be enabled at AppVeyor and the `auth_token` needs to be
 
 1. [Log in at AppVeyor](https://ci.appveyor.com) using your GitHub credentials.
 2. Click `(+) New Project` in the top left, then `GitHub` > `Authorize GitHub` for public projects.
-3. Back in AppVeyor, mouse over `PyEveLiveDps` and click `(+) Add` on the far right.
+3. Back in AppVeyor, mouse over `PyFrontierLiveDPS` and click `(+) Add` on the far right.
 
 ### Configuring `auth_token`
 
