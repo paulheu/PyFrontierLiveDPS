@@ -1,5 +1,5 @@
 _oreVolume = {
-    "Carbonaceous Ore": 10,
+    "Carbonaceous Ore": 1,
     "Deep-Core Carbon Ore": 1,
     "Common Ore": 1,
     "Metal-Rich Ore": 1,
