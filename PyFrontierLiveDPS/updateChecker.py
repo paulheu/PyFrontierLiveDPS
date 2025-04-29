@@ -26,7 +26,7 @@ class UpdateChecker(threading.Thread):
 
     def run(self):
         try:
-            httpResponse = urllib.request.urlopen("https://api.github.com/repos/ArtificialQualia/PyFrontierLiveDPS/releases").read()
+            httpResponse = urllib.request.urlopen("https://api.github.com/repos/paulheu/PyFrontierLiveDPS/releases").read()
         except urllib.error.URLError as e:
             logging.exception('Exception checking for new releases:')
             logging.exception(e)
@@ -35,9 +35,9 @@ class UpdateChecker(threading.Thread):
         releases = json.loads(httpResponse.decode('utf-8'))
         
         logging.info('Current version: ' + version.version)
-        logging.info('Latest release: ' + releases[0]['name'])
-        if releases[0]['name'] != version.version.split('-')[0] and releases[0]['name'] != settings.disableUpdateReminderFor:
-            UpdateNotificaitonWindow(releases)
+        #logging.info('Latest release: ' + releases[0]['name'])
+        #if releases[0]['name'] != version.version.split('-')[0] and releases[0]['name'] != settings.disableUpdateReminderFor:
+        #    UpdateNotificaitonWindow(releases)
 
 class UpdateNotificaitonWindow(tk.Toplevel):
     def __init__(self, releases):
@@ -118,7 +118,7 @@ class UpdateNotificaitonWindow(tk.Toplevel):
         tk.Frame(self, height="10", width="1").grid(row="101", column="0")
         
     def downloadAction(self):
-        webbrowser.open("https://github.com/ArtificialQualia/PyFrontierLiveDPS/releases", autoraise=True)
+        webbrowser.open("https://github.com/paulheu/PyFrontierLiveDPS/releases", autoraise=True)
         if self.reminderCheckbox.var.get():
             settings.disableUpdateReminderFor = self.releases[0]['name']
         self.destroy()
